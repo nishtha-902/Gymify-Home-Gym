@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="png" href="data:image/png;base64,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">
+    <title>Gymify-Home Gym</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <header>
+    <div class="company-logo">Gymify</div>
+    <nav class="navbar">
+      <ul class="nav-items">
+        <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+        <li class="nav-item"><a href="#course" class="nav-link">COURSES</a></li>
+        <li class="nav-item"><a href="#why" class="nav-link">ABOUT</a></li>
+        <li class="nav-item"><a href="#foot" class="nav-link">CONTACT</a></li>
+        <li class="nav-item"><a href="login.html" class="nav-link">LOGIN</a></li></i>
+      </ul>
+    </nav>
+    <div class="menu-toggle">
+      <i class="bx bx-menu"></i>
+      <i class="bx bx-x"></i>
+    </div>
+  </header>
+  <main>
+    <section class="container section-1">
+      <div class="slogan">
+        <h1 class="company-title">Wanna Join Gym, Do with us</h1>
+        <h2 class="company-slogan">BUILD Your Body, TRANSFORM Your Life!</h2>
+      </div>
+      <div class="home-computer-container">
+        <img class="home-computer" src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3ltfGVufDB8fDB8fHww" alt="a computer in dark with shadow" style="height: 330px;" class="home-img">
+      </div>
+    </section>
+
+    <h1 id="course">Welcome to <span id="gymify">GYMIFY!</span><h2>
+    <h2 id="course1">Want to be fit and strong, leave it to us. Explore our workout courses.</h2>
+     <section class="container section-3">
+        
+      
+        <div class="product product-1">
+          <img style="height: 300px;width: 400px;" src="https://www.muscleandfitness.com/wp-content/uploads/2019/08/Guy-Showing-Off-Abs-and-Chest.jpg?quality=86&strip=all" alt="computer to sell" class="product-img">
+          <span id="s1" class="start">Start</span>
+          <p>Abs Workout</p>
+        </div>
+       
+        <div class="product product-2">
+          <img style="height: 300px;width: 400px;" src="https://media.istockphoto.com/id/1183038884/photo/view-of-a-row-of-treadmills-in-a-gym-with-people.webp?b=1&s=170667a&w=0&k=20&c=zxot0AXyC36ThbaBFIWwd886ptVD2Vpmr-ssEGwTOD4=">
+          <span class="start">Start</span>
+          <p>Cardio</p>
+        </div>
+        
+        <div class="product product-3">
+          <img style="height: 300px;width: 400px;" src="https://media.istockphoto.com/id/1300991946/photo/man-doing-lunges-with-dumbbells.webp?b=1&s=170667a&w=0&k=20&c=4Aa17-2_PdA29qvkMkQ1ApTPgTsU9BVD-WFEzSsltgM=" alt="computer to sell" class="product-img">
+          <span class="start">Start</span>
+          <p>Stretching</p>
+        </div>
+        
+        <div class="product product-4">
+          <img style="height: 300px;width: 400px;" src="https://media.istockphoto.com/id/670724074/photo/exercising-at-the-gym.webp?b=1&s=170667a&w=0&k=20&c=toNOAVgLzQfhA7jVQRsOg3B1oiOXQLZakpG4YwrPToQ=">
+          <span class="start">Start</span>
+          <p>Aerobics</p>
+        </div>
+        
+      </section> 
+
+     <h1 id="why">WHY GYMIFY ?</h1>
+     <p id="about">The diverse range of programs, from group exercises, corporate training to personalized training, caters to varying fitness levels and goals. Members get variety and the option of customization as each gym offers a diversity of exercise options and specialized programs, allowing members to choose activities that align with their interests and fitness objectives. Personalized training programs ensure workouts are tailored to individual needs, maximizing results. Participating in group exercises fosters a sense of community among members, providing social support and encouragement, which can be instrumental in maintaining consistency in their fitness journey.</p>
+    <section class="container section-2">
+  
+      <div class="offer offer-1">
+        <img src="https://media.istockphoto.com/id/1567420260/photo/indian-young-man-doing-namaste-posture-or-yoga-with-closed-eyes-while-sitting-at-home-concept.webp?b=1&s=170667a&w=0&k=20&c=73zJmh9uCPmN9y5Mwt4vS6Vj6HZ2famP2hCcdp74ut8=" style="height: 300px;width: 380px;" alt="a computer in dark with with white shadow" class="offer-img offer-1-img">
+        <div class="offer-description offer-desc-1">
+          <h2 class="offer-title">Flexible Timimgs</h2>
+          <p class="offer-hook">You can do workout at your home itself at any time when you are comfortable. Youngsters and adults all can follow this workout as there are different categories of workout according to everyone's body.</p>
+        </div>
+      </div>
+      
+      <div class="offer offer-2">
+        <img src="jonathan-borba-R0y_bEUjiOM-unsplash.jpg" style="height: 350px;width: 380px;" alt="a opened computer" class="offer-img offer-2-img">
+        <div class="offer-description offer-desc-2">
+          <h2 class="offer-title">Personalised Training</h2>
+          <p class="offer-hook">Gymify is known for the competent personal trainers and extraordinary personal training offered by them. The individuals seeking for serious goal-oriented fitness, personalized guidance, motivation, and specialized workout plans, Gen-z Gym personal training program is for them.</p>
+         </div>
+      </div>
+
+      <div class="offer offer-1">
+        <img src="photo-genius-kufLAiPoIlI-unsplash.jpg" style="height: 350px;width: 380px;" alt="a computer in dark with with white shadow" class="offer-img offer-1-img">
+        <div class="offer-description offer-desc-1">
+          <h2 class="offer-title">Free Courses Available</h2>
+          <p class="offer-hook">We provide free training programs to all which you can access just by on click without any cost where all the certified trainers will be training you by live sessions with proper time slots and rest time with pleasant background music which will keep you motivated.</p>
+          </div>
+      </div>
+    </section>
+   
+    
+    <section class="container section-5">
+      <h2 class="subscribe-input-label">FEEDBACK</h2>
+      <div class="subscribe-container">
+        <input type="text" id="email-subscribe" placeholder="Give your valueable feedback...">
+        <input type="submit" value="SUBMIT">
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div id="foot" class="container top-footer">
+      <div class="footer-item">
+        <h2 class="footer-title">QUICK LINKS</h2>
+        <div class="footer-items">
+          <h3>Gym Locator</h3>
+          <h3>About Us</h3>
+          <h3>Careers</h3>
+          <h3>Testimonials</h3>
+          <h3>Press Room</h3>
+          <h3>Our Events</h3>
+          <h3>Group program</h3>
+        </div>
+      </div>
+      <div class="footer-item">
+        <h2 class="footer-title">SERVICES</h2>
+        <div class="footer-items">
+          <h3>Blogs</h3>
+          <h3>Coorporate Wellness</h3>
+          <h3>Program</h3>
+          <h3>Gallery</h3>
+          <h3>Franchise</h3>
+          <h3>Advertise with us</h3>
+          <h3>Buy membership now</h3>
+          <h3>Sitemap</h3>
+        </div>
+      </div>
+      <div class="footer-item">
+        <h2 class="footer-title">SOCIAL MEDIA HANDLES</h2>
+        <div class="footer-items">
+          <h3>Yt - Gymify : Home Gym</h3>
+          <h3>Ig - gymify_homegym</h3>
+          <h3>X - gymify.gym</h3>
+          <h3>Fb - Gymify | Home Gym</h3>
+          <h3>Id - gymify.homegym@gmail.com</h3>
+        </div>
+      </div>
+    </div>
+    <div class="container end-footer">
+      <div class="copyright">copyright © 2024 - Present • <b>NISHTHA KATHPAL</b></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</body>
+</html>
